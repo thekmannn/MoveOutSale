@@ -178,23 +178,8 @@ h1,h2,h3,p{
 .hero-art{
     height: 510px;
     border-radius: 9px;
-    /* position: relative; */
     overflow: hidden;
-    /* background: #dbe8ce;
-    padding: 27px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between */
 }
-.hero-art::before{
-    content: '';
-    position: absolute;
-    right: -15%;
-    top: 13%;
-    width: 80%;
-    aspect-ratio: 1;
-    border-radius: 50%;
-    background: #cde0bc}
 .hero-art-top,.hero-art-bottom{
     position: relative;
     z-index: 2;
