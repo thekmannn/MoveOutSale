@@ -451,7 +451,7 @@ h1,h2,h3,p{
     position: relative;
     overflow: hidden}
 .single-promo::after{
-    content: '✳';
+    content: "\2733\FE0E";
     position: absolute;
     top: 50px;
     right: -45px;
