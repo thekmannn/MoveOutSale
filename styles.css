@@ -4,3 +4,37 @@
 @media(max-width:700px){.site-header nav{display:none}.hero{grid-template-columns:1fr;gap:35px;padding:39px 0 65px}.hero h1{font-size:clamp(62px,11vw,90px)}.hero-art{height:440px;max-width:550px;width:100%;margin:auto}.hero-note{margin-top:28px}.ribbon-inner{grid-template-columns:1fr 1fr;gap:8px}.ribbon-inner>div:last-child{grid-column:span 2;border-top:1px solid #d5dfd0}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.inventory{padding:80px 0}.how-title{display:block}.how-title p{max-width:410px}.steps{grid-template-columns:1fr}.step{min-height:175px}.step h3{margin:13px 0 8px}.delivery-section{grid-template-columns:1fr;padding:80px 0}.delivery-art{min-height:400px}.end-banner-inner{grid-template-columns:1fr;gap:30px}.dialog-shell{grid-template-columns:1fr}.detail-dialog{width:min(600px,calc(100vw - 20px))}.detail-gallery{aspect-ratio:1.4}.dialog-right{padding:30px}.dialog-close{z-index:6;background:#fff}.site-footer{flex-wrap:wrap;padding:30px 0}.site-footer p{order:3;width:100%}}
 @media(max-width:520px){.wrapper{width:calc(100% - 34px)}.announcement{font-size:8px;letter-spacing:.12em}.site-header{height:73px}.brand{font-size:16px}.header-shop{font-size:10px}.hero h1{font-size:clamp(53px,12vw,69px)}.hero-copy>p{font-size:13px}.hero-art{height:345px;border-radius:105px 8px 8px 8px}.hero-art-top,.hero-art-bottom{font-size:8px}.hero-stamp{width:73px;height:73px;font-size:11px}.ribbon-inner{grid-template-columns:1fr}.ribbon-inner>div,.ribbon-inner>div:last-child{grid-column:1;border:0;border-bottom:1px solid #d6dfd0}.section-heading h2,.how-title h2,.delivery-copy h2{font-size:40px}.section-heading{align-items:start}.item-counter{font-size:26px}.item-counter span{font-size:8px}.filter-list{width:100%}.search-field{flex:1}.search-field input{width:100%}.product-grid,.product-grid.single{grid-template-columns:1fr}.card-actions{grid-template-columns:1fr auto}.single-promo{min-height:320px}.single-promo h3{font-size:40px}.delivery-art{min-height:340px}.end-banner h2{font-size:55px}.dialog-right{padding:24px 19px}.detail-gallery{aspect-ratio:1.15}.detail-meta>div{grid-template-columns:110px 1fr}.photo-dialog{padding:40px}.site-footer p span{display:block;margin:6px 0}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+
+/* Homepage hero image */
+.hero-art {
+  background: transparent;
+  padding: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+/* Remove decorative background circle */
+.hero-art::before {
+  display: none;
+}
+
+/* Make the image fill the entire container */
+.hero-art-surface {
+  inset: 0;
+  display: block;
+}
+
+.hero-art-surface img {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: cover;
+}
+
+/* Remove text and decorative elements */
+.hero-art-top,
+.hero-art-bottom,
+.hero-stamp {
+  display: none;
+}
