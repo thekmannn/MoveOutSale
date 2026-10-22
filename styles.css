@@ -177,7 +177,7 @@ h1,h2,h3,p{
     color: #6e9361}
 .hero-art{
     height: 510px;
-    border-radius: 9px;
+    border-radius: 15px;
     overflow: hidden;
 }
 .hero-art-top,.hero-art-bottom{
