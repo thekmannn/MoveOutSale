@@ -172,9 +172,10 @@ h1,h2,h3,p{
     font-size: 11px;
     line-height: 1.8;
     color: #7a8977}
-.small-star{
-    font-size: 25px;
-    color: #6e9361}
+.small-star {
+    width: 25px;
+    height: 25px;
+    flex-shrink: 0;}
 .hero-art{
     height: 510px;
     border-radius: 15px;
@@ -450,14 +451,18 @@ h1,h2,h3,p{
     justify-content: space-between;
     position: relative;
     overflow: hidden}
-.single-promo::after{
-    content: "\2733\FE0E";
+.single-promo::after {
+    content: "";
     position: absolute;
     top: 50px;
     right: -45px;
-    font-size: 240px;
-    line-height: 1;
-    color: #dce5d2}
+    width: 200px;
+    height: 200px;
+    background-image: url("assets/star.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    opacity: 0.2;
+    pointer-events: none;}
 .single-promo>span,.single-promo>div{
     position: relative;
     z-index: 1}
@@ -817,6 +822,35 @@ h1,h2,h3,p{
     right: 0;
     text-align: center;
     font-size: 11px}
+.ribbon-star{
+    width: 25px;
+    height: 25px;
+    grid-row: span 2;}
+.delivery-flower{
+    width: 110px;
+    height: 110px;}
+.whatsapp-button img {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;}
+.arrow-icon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    vertical-align: middle;
+    margin-left: 4px;}
+.ribbon-arrow {
+    width: 25px;
+    height: 25px;
+    grid-row: span 2;}
+.step-arrow {
+    width: 31px;
+    height: 31px;}
+.ribbon-star {
+    width: 25px;
+    height: 25px;
+    grid-row: span 2;}
+
 @media(max-width:950px){.wrapper{width:calc(100% - 46px)}.site-header nav{gap:13px}.hero-art{height:430px}.hero h1{font-size:65px}.ribbon-inner>div{padding-inline:13px}.product-body{padding:17px}.card-actions{grid-template-columns:1fr}.steps{gap:12px}.step{padding:23px}.delivery-section{gap:6%}}
 @media(max-width:700px){.site-header nav{display:none}.hero{grid-template-columns:1fr;gap:35px;padding:39px 0 65px}.hero h1{font-size:clamp(62px,11vw,90px)}.hero-art{height:440px;max-width:550px;width:100%;margin:auto}.hero-note{margin-top:28px}.ribbon-inner{grid-template-columns:1fr 1fr;gap:8px}.ribbon-inner>div:last-child{grid-column:span 2;border-top:1px solid #d5dfd0}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.inventory{padding:80px 0}.how-title{display:block}.how-title p{max-width:410px}.steps{grid-template-columns:1fr}.step{min-height:175px}.step h3{margin:13px 0 8px}.delivery-section{grid-template-columns:1fr;padding:80px 0}.delivery-art{min-height:400px}.end-banner-inner{grid-template-columns:1fr;gap:30px}.dialog-shell{grid-template-columns:1fr}.detail-dialog{width:min(600px,calc(100vw - 20px))}.detail-gallery{aspect-ratio:1.4}.dialog-right{padding:30px}.dialog-close{z-index:6;background:#fff}.site-footer{flex-wrap:wrap;padding:30px 0}.site-footer p{order:3;width:100%}}
 @media(max-width:520px){.wrapper{width:calc(100% - 34px)}.announcement{font-size:8px;letter-spacing:.12em}.site-header{height:73px}.brand{font-size:16px}.header-shop{font-size:10px}.hero h1{font-size:clamp(53px,12vw,69px)}.hero-copy>p{font-size:13px}.hero-art{height:345px;border-radius:15px}.hero-art-top,.hero-art-bottom{font-size:8px}.hero-stamp{width:73px;height:73px;font-size:11px}.ribbon-inner{grid-template-columns:1fr}.ribbon-inner>div,.ribbon-inner>div:last-child{grid-column:1;border:0;border-bottom:1px solid #d6dfd0}.section-heading h2,.how-title h2,.delivery-copy h2{font-size:40px}.section-heading{align-items:start}.item-counter{font-size:26px}.item-counter span{font-size:8px}.filter-list{width:100%}.search-field{flex:1}.search-field input{width:100%}.product-grid,.product-grid.single{grid-template-columns:1fr}.card-actions{grid-template-columns:1fr auto}.single-promo{min-height:320px}.single-promo h3{font-size:40px}.delivery-art{min-height:340px}.end-banner h2{font-size:55px}.dialog-right{padding:24px 19px}.detail-gallery{aspect-ratio:1.15}.detail-meta>div{grid-template-columns:110px 1fr}.photo-dialog{padding:40px}.site-footer p span{display:block;margin:6px 0}}
