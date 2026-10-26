@@ -5,7 +5,7 @@ window.SALE_CONFIG={products:[
         category:"Electronics",
         status:"available",
         featured:true,
-        price:150,
+        price:140,
         condition:"Excellent",
         originalPrice:239,
         originalUrl:"https://www.amazon.co.uk/dp/B0CYZR8T4K",
@@ -65,7 +65,7 @@ window.SALE_CONFIG={products:[
     },
     {
         id: "air-fryer",
-        title: "1500W Air Fryer - Black",
+        title: "4.3L Tower Air Fryer",
         category: "Appliances",
         status: "available",
         featured: false,
