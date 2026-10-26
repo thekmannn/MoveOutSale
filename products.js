@@ -96,7 +96,7 @@ window.SALE_CONFIG={products:[
         imperfections: "",
         collectionNotes: "Collection from London E3 by arrangement. Ask about buyer-paid shipping or a possible London drop-off."
     },
-
+    
     {
         id: "turntable",
         title: "Audio-Technica AT-LP60XBTBK Bluetooth Turntable",
@@ -109,15 +109,15 @@ window.SALE_CONFIG={products:[
         originalUrl: "https://www.amazon.co.uk/dp/B07MVPRSHZ",
         retailerName: "Amazon",
         whatsappUrl: "https://wa.link/ne9fal",
-
+        
         description: "Audio-Technica AT-LP60XBTBK fully automatic wireless belt-drive turntable in black. Features Bluetooth connectivity for wireless audio playback and a dust cover. Can also connect to compatible wired audio equipment.",
-
+        
         images: [
             {src: "assets/turntable/og_current_image.jpeg", alt: "Actual Audio-Technica turntable"},
             {src: "assets/turntable/amazong_front.jpg", alt: "Turntable front reference image"},
             {src: "assets/turntable/amazon_top_angle.jpg", alt: "Turntable angled top reference image"}
         ],
-
+        
         details: [
             {label: "Brand", value: "Audio-Technica"},
             {label: "Model", value: "AT-LP60XBTBK"},
@@ -129,11 +129,11 @@ window.SALE_CONFIG={products:[
             {label: "Weight", value: "2.6 kg"},
             {label: "Features", value: "Dust cover"}
         ],
-
+        
         imperfections: "",
         collectionNotes: "Collection from London E3 by arrangement. Ask about buyer-paid shipping or a possible London drop-off."
     },
-
+    
     {
         id: "large-fan",
         title: "KEPLIN 36-inch Cooling Tower Fan",
@@ -146,9 +146,9 @@ window.SALE_CONFIG={products:[
         originalUrl: "https://www.diy.com/departments/keplin-36-inch-cooling-tower-fan-remote-control-3-speed-mode-settings-timer-led-display-touch-panel-silver/5056475496256_BQ.prd",
         retailerName: "B&Q",
         whatsappUrl: "https://wa.link/b127m5",
-
+        
         description: "KEPLIN 36-inch cooling tower fan in black, featuring 3 speed settings, multiple operating modes, a timer, LED display and touch controls. Slim and space-saving design.",
-
+        
         images: [
             {src: "assets/large-fan/og_current_front_turned_on.jpeg", alt: "Actual KEPLIN tower fan, front view while operating"},
             {src: "assets/large-fan/og_current_top_buttons.jpeg", alt: "Actual tower fan, top control buttons"},
@@ -156,7 +156,7 @@ window.SALE_CONFIG={products:[
             {src: "assets/large-fan/online_demension_info.jpeg", alt: "Tower fan dimensions reference"},
             {src: "assets/large-fan/online_different_modes.jpeg", alt: "Tower fan operating modes reference"}
         ],
-
+        
         details: [
             {label: "Brand", value: "KEPLIN"},
             {label: "Type", value: "Cooling tower fan"},
@@ -168,11 +168,11 @@ window.SALE_CONFIG={products:[
             {label: "Features", value: "Timer and multiple operating modes"},
             {label: "What's included", value: "Tower fan"}
         ],
-
+        
         imperfections: "",
         collectionNotes: "Collection from London E3 by arrangement. Ask about buyer-paid shipping or a possible London drop-off."
     },
-
+    
     {
         id: "ikea-coffee-table",
         title: "IKEA LACK Coffee Table",
@@ -185,15 +185,15 @@ window.SALE_CONFIG={products:[
         originalUrl: "https://www.ikea.com/gb/en/p/lack-coffee-table-white-stained-oak-effect-50319029/",
         retailerName: "IKEA",
         whatsappUrl: "https://wa.link/ev605i",
-
+        
         description: "IKEA LACK coffee table in a white stained oak effect finish. A simple, minimalist coffee table with a lightweight design, suitable for living rooms, lounges and smaller spaces.",
-
+        
         images: [
             {src: "assets/table/og_current_image.jpeg", alt: "Actual IKEA LACK coffee table"},
             {src: "assets/table/ikea_front_top_angle.jpeg", alt: "IKEA coffee table front and top angled view"},
             {src: "assets/table/ikea_dimensions.jpeg", alt: "IKEA LACK coffee table dimensions"}
         ],
-
+        
         details: [
             {label: "Brand", value: "IKEA"},
             {label: "Model", value: "LACK"},
@@ -203,8 +203,35 @@ window.SALE_CONFIG={products:[
             {label: "Height", value: "45 cm"},
             {label: "Dimensions", value: "90 × 55 × 45 cm"}
         ],
-
+        
         imperfections: "",
         collectionNotes: "Collection from London E3 by arrangement. Ask about buyer-paid shipping or a possible London drop-off."
     },    
+    {
+        id: "shoe-rack",
+        title: "Compact Shoe Rack",
+        category: "Furniture",
+        status: "available",
+        featured: false,
+        price: 10,
+        condition: "Excellent",
+        originalPrice: 30,
+        originalUrl: "",
+        retailerName: "",
+        whatsappUrl: "https://wa.link/jjvw6t",
+    
+        description: "Compact shoe rack that can be easily assembled and disassembled without tools. Can house 9 shoes.",
+    
+        images: [
+            {src: "assets/shoe-rack/og_current_front.jpeg", alt: "Actual shoe rack, front and top view"},
+        ],
+    
+        details: [
+            {label: "Colour", value: "Black-Grey"},
+            {label: "Capacity", value: "9 Shoes"},
+        ],
+    
+        imperfections: "",
+        collectionNotes: "Collection from London E3 by arrangement. Ask about buyer-paid shipping or a possible London drop-off."
+    },
 ]};
