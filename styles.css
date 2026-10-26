@@ -894,6 +894,11 @@ h1,h2,h3,p{
     color: #72846e;}
 
 
+.btn-dark .arrow-icon {
+    filter: brightness(0) invert(1);}
+.whatsapp-button img.arrow-icon {
+    width: 14px;
+    height: 14px;}
 
 
 @media(max-width:950px){.wrapper{width:calc(100% - 46px)}.site-header nav{gap:13px}.hero-art{height:430px}.hero h1{font-size:65px}.ribbon-inner>div{padding-inline:13px}.product-body{padding:17px}.card-actions{grid-template-columns:1fr}.steps{gap:12px}.step{padding:23px}.delivery-section{gap:6%}}
