@@ -41,6 +41,9 @@ img{
 :focus-visible{
     outline: 3px solid #8ca65f;
     outline-offset: 3px}
+#dialog-title:focus {
+    outline: none;}
+
 .skip-link{
     position: absolute;
     top: -100px;
