@@ -10,7 +10,7 @@ window.SALE_CONFIG={products:[
         originalPrice:239,
         originalUrl:"https://www.amazon.co.uk/dp/B0CYZR8T4K",
         retailerName:"Amazon",
-        whatsappUrl:"https://wa.link/u7pavn",
+        whatsappUrl:"https://wa.link/95u5m3",
         description:"Hisense 32 inch Full HD QLED Smart TV. Quantum Dot Colour, Natural Enhancer, HDR & HLG-Dolby Atoms, HDMI, and Share to TV. Youtube, Freeview Play, Netflix, Disney+ and many more. Please message me for any further details until this listing is completed.",
         images:[
             {src:"assets/hisense-tv/4.jpeg",alt:"Original project"},
@@ -38,7 +38,7 @@ window.SALE_CONFIG={products:[
         originalPrice: 40.49,
         originalUrl: "https://www.amazon.co.uk/dp/B0CPP5JFQ4",
         retailerName: "Amazon",
-        whatsappUrl: "https://wa.link/dqhqrl",
+        whatsappUrl: "https://wa.link/v0fiqn",
         description: "DR.PREPARE 16-inch portable bladeless desk fan with a quiet 25 dB DC motor, 8 speed settings, 80° oscillation, 1-8 hour timer and remote control.",
         images: [
             {src: "assets/small-fan/og_current_front.jpeg", alt: "Actual fan, front view"},
@@ -74,7 +74,7 @@ window.SALE_CONFIG={products:[
         originalPrice: 65,
         originalUrl: "https://www.amazon.co.uk/Tower-T17021RG-Temperature-Circulate-Automatic/dp/B07X4YNHHW",
         retailerName: "Amazon",
-        whatsappUrl: "https://wa.link/vfzlw9",
+        whatsappUrl: "https://wa.link/tlh6dj",
 
         description: "Black 1500W air fryer with adjustable temperature control from 80°C to 200°C and a 60-minute manual timer. Features a 4.3L pot.",
 
@@ -108,7 +108,7 @@ window.SALE_CONFIG={products:[
         originalPrice: 155,
         originalUrl: "https://www.amazon.co.uk/dp/B07MVPRSHZ",
         retailerName: "Amazon",
-        whatsappUrl: "https://wa.link/ne9fal",
+        whatsappUrl: "https://wa.link/62ws4e",
         
         description: "Audio-Technica AT-LP60XBTBK fully automatic wireless belt-drive turntable in black. Features Bluetooth connectivity for wireless audio playback and a dust cover. Can also connect to compatible wired audio equipment.",
         
@@ -145,7 +145,7 @@ window.SALE_CONFIG={products:[
         originalPrice: 100,
         originalUrl: "https://www.diy.com/departments/keplin-36-inch-cooling-tower-fan-remote-control-3-speed-mode-settings-timer-led-display-touch-panel-silver/5056475496256_BQ.prd",
         retailerName: "B&Q",
-        whatsappUrl: "https://wa.link/b127m5",
+        whatsappUrl: "https://wa.link/kw453w",
         
         description: "KEPLIN 36-inch cooling tower fan in black, featuring 3 speed settings, multiple operating modes, a timer, LED display and touch controls. Slim and space-saving design.",
         
@@ -184,7 +184,7 @@ window.SALE_CONFIG={products:[
         originalPrice: 19,
         originalUrl: "https://www.ikea.com/gb/en/p/lack-coffee-table-white-stained-oak-effect-50319029/",
         retailerName: "IKEA",
-        whatsappUrl: "https://wa.link/ev605i",
+        whatsappUrl: "https://wa.link/fennfm",
         
         description: "IKEA LACK coffee table in a white stained oak effect finish. A simple, minimalist coffee table with a lightweight design, suitable for living rooms, lounges and smaller spaces.",
         
@@ -218,7 +218,7 @@ window.SALE_CONFIG={products:[
         originalPrice: 30,
         originalUrl: "",
         retailerName: "",
-        whatsappUrl: "https://wa.link/jjvw6t",
+        whatsappUrl: "https://wa.link/0col6f",
     
         description: "Compact shoe rack that can be easily assembled and disassembled without tools. Can house 9 shoes.",
     
